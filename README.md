@@ -1,7 +1,19 @@
 # Seja bem-vindo ao meu projeto, espero que goste :D
--A aplicação apresenta 3 funções relacionadas ao banco de dados, o cadastro de dados, a exibição deles e a exclusão.
+
+-A aplicação apresenta em uma única página relacionadas ao banco de dados, o cadastro de dados, a exibição deles e a exclusão.
 
 -Utilizei o banco de dados MySQL para desenvolver a aplicação e para fazer a conexão com o banco utilizei o Sequelize (arquivo db.js).
+
+# Requisitos
+
+Para executar a aplicação será necessário:
+
+- Ambiente de desenvolvimento integrado (IDE), recomendo o Visual Studio Code
+- Node.js
+- MySQL ou outro sistema de gerenciamento de banco de dados
+- Algumas dependêbcias instaladas por meio do npm install
+
+
 
 # Observações importantes
 -O nome do banco de dados utilizado foi "mensagem-db", caso utilizar outro nome, deve ser alterado no arquivo db.js
@@ -18,3 +30,6 @@ nodemon app.js
 
 e abrir o link http://localhost:8088/ no navegador
 
+
+# Tecnologias utilizadas
+- Sequelize, Express, Handlebars, Body-Parser e Moment.js.
