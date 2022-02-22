@@ -1,0 +1,29 @@
+<div class="container">
+    <form action="/cadastro" method="POST">
+        <h1>Teste de conexão com banco de dados: {{conexaobd}}</h1>
+            <div class="container-input">
+            <h2>Digite a sua mensagem</h2>
+            <input type="text" name="mensagem" class="input-mensagem" placeholder="Sua mensagem aqui">
+            <button class="btn-salvar">Enviar</button>
+            </div>
+        </form>
+        <div class="container-mensagens">
+                <h3>Lista de mensagens</h3>
+                <table>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                    <td>Mensagem</td>
+                    <td></td>
+                    {{#each lista}}
+                    <tr>
+                        <td class="dataP"><small>{{#formatDate dataValues.createdAt}}{{/formatDate}}</small></td>
+                        <td class="dataP"><small>{{#formatDate2 dataValues.createdAt}}{{/formatDate2}}</small></td>
+                        <td class="datag"><small>{{#formatDate3 dataValues.createdAt}}{{/formatDate3}}</small></td>
+                        <td class="mensagem">{{dataValues.mensagem}}</td>
+                        <td class="btn"><a href="/apagar/{{dataValues.id}}"><button class="btn-apagar">Apagar</button></a></td>
+                    </tr>
+                    {{/each}}
+                </table>
+        </div>
+</div>
