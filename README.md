@@ -10,7 +10,7 @@
 
 -A senha do banco de dados precisa ser alterada no arquivo db.js no lugar de "SENHA DO BANCO" incluir a senha do MySQL
 
--Para rodar a aplicação pode ser necessária a instalação do sequelize e rodar o nodemon, para isso basta digitar os seguintes código no diretório da pasta:
+-Para rodar a aplicação pode ser necessária a instalação do sequelize e rodar o nodemon, para isso basta digitar os seguintes códigos no diretório da pasta:
 
 npm install --save sequelize
 
