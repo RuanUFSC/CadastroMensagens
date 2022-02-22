@@ -1,7 +1,7 @@
 # Seja bem-vindo ao meu projeto, espero que goste :D
 -A aplicação apresenta 3 funções relacionadas ao banco de dados, o cadastro de dados, a exibição deles e a exclusão.
 
--Utilizei o banco de dados MySQL para desenvolver a aplicação, a conexão com o banco por meio do Sequelize está no arquivo db.js.
+-Utilizei o banco de dados MySQL para desenvolver a aplicação e para fazer a conexão com o banco utilizei o Sequelize (arquivo db.js).
 
 # Observações importantes
 -O nome do banco de dados utilizado foi "mensagem-db", caso utilizar outro nome, deve ser alterado no arquivo db.js
