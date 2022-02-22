@@ -8,3 +8,9 @@
 
 -A senha do banco de dados precisa ser alterada no arquivo db.js no lugar de "SENHA DO BANCO" incluir a senha do MySQL
 
+-Para rodar a aplicação basta digitar o seguinte código no diretório:
+
+nodemon app.js
+
+e abrir o link http://localhost:8088/ no navegador
+
