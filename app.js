@@ -63,7 +63,7 @@ app.get('/apagar/:id', function(req, res){
   })
 })
 
-app.listen(8081, function(){
+app.listen(8088, function(){
   conexaobd = 'ok'; //Altera status da conexão
   console.log(conexaobd)
 });
