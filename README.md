@@ -1,6 +1,6 @@
 # Seja bem-vindo ao meu projeto, espero que goste :D
 
--A aplicação apresenta em uma única página relacionadas ao banco de dados, o cadastro de dados, a exibição deles e a exclusão.
+-A aplicação possibilita a realização, em uma única página,  do cadastro de dados, a exibição deles e a exclusão.
 
 -Utilizei o banco de dados MySQL para desenvolver a aplicação e para fazer a conexão com o banco utilizei o Sequelize (arquivo db.js).
 
